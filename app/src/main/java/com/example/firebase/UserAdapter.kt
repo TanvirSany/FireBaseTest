@@ -66,4 +66,8 @@ class UserAdapter(var context: Context,
         return userList[position].userId
     }
 
+    fun     getImageName(position : Int) : String{
+        return userList[position].imageName
+    }
+
 }
